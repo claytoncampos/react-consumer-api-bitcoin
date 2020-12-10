@@ -1,0 +1,19 @@
+.container {
+  width: 980px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: rows;
+  justify-content: space-between;
+  border: solid 1px white;
+}
+
+.container > div {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: none;
+  }
+}
